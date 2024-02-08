@@ -22,7 +22,7 @@ import { CommandTermine } from "./Pages/CommandTermine.jsx";
 register();
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/vite-deploy/",
     element: <App />,
     loader: async () => {
       return await fetch("productData.json");
@@ -34,19 +34,19 @@ const router = createBrowserRouter([
         element: <HeroSection />,
       },
       {
-        path: "/account",
+        path: "/vite-deploy/account",
         element: <h1>Account</h1>,
       },
       {
-        path: "/contact",
+        path: "/vite-deploy/contact",
         element: <h1>Contact</h1>,
       },
       {
-        path: "/shop",
+        path: "/vite-deploy/shop",
         element: <h1>shop</h1>,
       },
       {
-        path: "/cart",
+        path: "/vite-deploy/cart",
         element: <Cart />,
         action: async ({ request }) => {
           try {
@@ -76,7 +76,7 @@ const router = createBrowserRouter([
         },
       },
       {
-        path: "/checkout",
+        path: "/vite-deploy/checkout",
         element: <Checkout />,
         action: async ({ request }) => {
           function hasNumber(inputString) {
@@ -211,11 +211,11 @@ const router = createBrowserRouter([
         },
       },
       {
-        path: "/commandTermine",
+        path: "/vite-deploy/commandTermine",
         element: <CommandTermine />,
       },
       {
-        path: "/products",
+        path: "/vite-deploy/products",
         children: [
           {
             path: ":productId",
