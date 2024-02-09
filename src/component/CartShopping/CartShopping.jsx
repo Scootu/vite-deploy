@@ -35,7 +35,7 @@ export const CartShopping = () => {
       }}
       className="relative"
     >
-      <Link to={"/cart"}>
+      <Link to={"/vite-deploy/cart"}>
         <div className="relative cursor-pointer ">
           <div className="absolute top-[-10px] right-[-12px] px-[2px] bg-[#f8d7a4] rounded-md">
             {data.length}
@@ -68,14 +68,14 @@ export const CartShopping = () => {
                           }}
                         />
 
-                        <Link to={`/products/${item.id}`}>
+                        <Link to={`/vite-deploy/products/${item.id}`}>
                           <img
                             className="absolute left-0 top-3 h-[60px] w-[60px] object-cover object-center"
                             src={item.images[0]}
                             alt={item.name}
                           />
                         </Link>
-                        <Link to={`/products/${item.id}`}>
+                        <Link to={`/vite-deploy/products/${item.id}`}>
                           <div className="w-full">
                             <p className=" text-left text-[#334862] h-[60px] overflow-hidden leading-[1.33em]">
                               {item.name}
@@ -107,10 +107,10 @@ export const CartShopping = () => {
                 </div>
                 <div className="py-0">
                   <button className="block p-2 bg-slate-800 w-full text-white mb-2">
-                    <Link to={"/cart"}>See Cart</Link>
+                    <Link to={"/vite-deploy/cart"}>See Cart</Link>
                   </button>
                   <button className="block p-2 bg-red-700 w-full text-white">
-                    <Link to={"/checkout"}>Order now!</Link>
+                    <Link to={"/vite-deploy/checkout"}>Order now!</Link>
                   </button>
                 </div>
               </>

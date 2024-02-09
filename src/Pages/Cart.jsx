@@ -96,7 +96,7 @@ export const Cart = () => {
                 className={
                   "py-0 px-[1.5rem] mb-[1rem] mx-auto  text-[1rem] h-[2.5rem] flex w-[200px] bg-[#0071dc] text-[#fff] font-bold items-center appearance-none border-0 rounded-[62.5rem] cursor-pointer justify-center whitespace-nowrap"
                 }
-                to={"/"}
+                to={"/vite-deploy/"}
               >
                 Back to shop
               </Link>
@@ -348,7 +348,7 @@ export const Cart = () => {
                   onClick={() => {
                     setClickValidteOrder(true);
                     setTimeout(() => {
-                      navigate("/checkout");
+                      navigate("/vite-deploy/checkout");
                     }, 2000);
                   }}
                 >

@@ -9,7 +9,7 @@ export const Segments = () => {
     <div className="min-h-[60px] pt-[20px] relative flex items-center justify-between w-full">
       <div className="m-auto py-[15px] w-full flex justify-center items-center">
         <Link
-          to={"/cart"}
+          to={"/vite-deploy/cart"}
           className={
             location == "cart"
               ? cLinkClass + "text-[#000]"
@@ -22,7 +22,7 @@ export const Segments = () => {
           <ion-icon name="chevron-forward-outline"></ion-icon>
         </span>
         <Link
-          to={"/checkout"}
+          to={"/vite-deploy/checkout"}
           className={
             location == "checkout"
               ? cLinkClass + "text-[#000]"
@@ -35,7 +35,7 @@ export const Segments = () => {
           <ion-icon name="chevron-forward-outline"></ion-icon>
         </span>
         <Link
-          to={"/commandTermine"}
+          to={"/vite-deploy/commandTermine"}
           className={
             location == "commandTermine"
               ? cLinkClass + "text-[#000]"

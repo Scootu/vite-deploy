@@ -27,7 +27,7 @@ export const CartProduct = (props) => {
     if (flag === true) {
       setActiveLinkCart(
         <NavLink
-          to={`/products/${id}`}
+          to={`/vite-deploy/products/${id}`}
           className="flex items-center gap-1 font-bold text-slate-800 hover:text-slate-500"
         >
           See Cart
@@ -40,7 +40,7 @@ export const CartProduct = (props) => {
 
   return (
     <div className="border shadow px-4 py-4">
-      <Link to={`/products/${id}`} className="h-full w-full">
+      <Link to={`/vite-deploy/products/${id}`} className="h-full w-full">
         <img
           className="h-128 px-4 py-4"
           width={"247"}
@@ -71,7 +71,7 @@ export const CartProduct = (props) => {
               setTimeout(() => {
                 setActiveLinkCart(
                   <NavLink
-                    to={`/products/${id}`}
+                    to={`/vite-deploy/products/${id}`}
                     className="flex items-center gap-1 font-bold text-slate-800 hover:text-slate-500"
                   >
                     See Cart

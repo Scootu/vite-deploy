@@ -1,16 +1,10 @@
-import React, {
-  Fragment,
-  useEffect,
-  useReducer,
-  useRef,
-  useState,
-} from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { Segments } from "../component/segments/Segments";
-import { useDispatch, useSelector } from "react-redux";
+import { useSelector } from "react-redux";
 import { Form, Link, useActionData } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircleInfo } from "@fortawesome/free-solid-svg-icons";
-import { getNewAddress } from "../store/newOrderSlice";
+
 // function reducerFirstName({ state, action }) {
 //   switch ("check_word") {
 //     case "check_word":
@@ -108,7 +102,7 @@ export const Checkout = () => {
               className={
                 "py-0 px-[1.5rem] mb-[1rem] mx-auto  text-[1rem] h-[2.5rem] flex w-[200px] bg-[#0071dc] text-[#fff] font-bold items-center appearance-none border-0 rounded-[62.5rem] cursor-pointer justify-center whitespace-nowrap"
               }
-              to={"/"}
+              to={"/vite-deploy/"}
             >
               Back to shop
             </Link>

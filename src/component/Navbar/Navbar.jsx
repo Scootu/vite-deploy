@@ -55,7 +55,7 @@ export default function NavBar() {
           <div className="flex items-center relative justify-end w-52">
             <img
               className="absolute left-0 w-28"
-              src="src/assets/planter-pot.png"
+              src="https://i.ibb.co/nR7zKPp/planter-pot.png"
               alt="logo image"
             />
             <p className="text-base uppercase font-bold ">Planter Pot</p>
@@ -83,7 +83,7 @@ export default function NavBar() {
                   setClinkType("home");
                 }}
               >
-                <Link to={"/"} className="uppercase hover:text-slate-600">
+                <Link to={"/vite-deploy/"} className="uppercase hover:text-slate-600">
                   Home
                 </Link>
                 <hr
@@ -99,7 +99,7 @@ export default function NavBar() {
                   setClinkType("shop");
                 }}
               >
-                <Link to={"shop"} className="uppercase hover:text-slate-600">
+                <Link to={"/vite-deploy/shop"} className="uppercase hover:text-slate-600">
                   shop
                 </Link>
                 <hr
@@ -121,7 +121,7 @@ export default function NavBar() {
                 }}
               >
                 <Link
-                  to={"/account"}
+                  to={"/vite-deploy/account"}
                   className="flex items-center justify-center gap-1 "
                 >
                   account
@@ -137,7 +137,7 @@ export default function NavBar() {
                 <ul className={hiddenClassTypeMenu}>
                   <li className=" py-2 border-b w-48">
                     <Link
-                      to="/cart"
+                      to="/vite-deploy/cart"
                       className="text-slate-900 flex items-center "
                     >
                       Cart
@@ -148,7 +148,7 @@ export default function NavBar() {
                   </li>
                   <li className=" py-2 border-b w-48">
                     <Link
-                      to="/checkout"
+                      to="/vite-deploy/checkout"
                       className="text-slate-900 flex items-center "
                     >
                       Order now
@@ -158,7 +158,7 @@ export default function NavBar() {
                     </Link>
                   </li>
                   <li className=" py-2 border-b w-48">
-                    <Link to="/" className="text-slate-900 flex items-center ">
+                    <Link to="/vite-deploy/" className="text-slate-900 flex items-center ">
                       Watchlist
                       <span className="material-symbols-outlined">
                         shopping_bag
@@ -166,7 +166,7 @@ export default function NavBar() {
                     </Link>
                   </li>
                   <li className="py-2 border-b w-48">
-                    <Link to="/" className="text-slate-900 flex items-center">
+                    <Link to="/vite-deploy/" className="text-slate-900 flex items-center">
                       My account
                       <span className="material-symbols-outlined">
                         account_circle
@@ -180,7 +180,7 @@ export default function NavBar() {
                   setClinkType("contact");
                 }}
               >
-                <Link to={"contact"} className="uppercase hover:text-slate-600">
+                <Link to={"/vite-deploy/contact"} className="uppercase hover:text-slate-600">
                   contact
                 </Link>
                 <hr

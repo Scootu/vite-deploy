@@ -201,7 +201,7 @@ const router = createBrowserRouter([
               res.json().then((data) => {
                 console.log("DATA :", data.data);
               });
-              return redirect("/commandTermine");
+              return redirect("/vite-deploy/commandTermine");
             }
           } catch (error) {
             console.error(error);
