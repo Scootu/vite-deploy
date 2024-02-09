@@ -3,7 +3,7 @@ import { CartContent } from "../component/content/CartContent";
 import { FeaturedProducts } from "./FeaturedProducts";
 export const HeroSection = () => {
   const styles = {
-    backgroundImage: "url(https://github.com/Scootu/vite-deploy/blob/8a7ebd4cb7fd4a824ddcba864c6a2aedd2687da6/src/assets/hero_sectino_2024_800.png",
+    backgroundImage: "url(https://i.ibb.co/rpY21Zk/hero-sectino-2024-800.png)",
   };
   return (
     <Fragment>
